@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         print("Favorite Food: \(favFood)")
         print("Favorite Color: \(favColor)")
         
-        infoView.text = "Full name: \(fullName)\n Home Town: \(homeTown), \(homeState) \n Favorite Food: \(favFood) \n Favorite Color: \(favColor)"
+        infoView.text = "\n   Full name: \(fullName)\n   Home Town: \(homeTown), \(homeState) \n   Favorite Food: \(favFood) \n   Favorite Color: \(favColor)"
         
         // Give the text box some definition...
         infoView.layer.borderWidth = 1.0
