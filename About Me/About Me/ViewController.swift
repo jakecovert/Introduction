@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         let homeState:String = "NE"
         
         // Tastes change, just not in this app...
-        var favFood:String = "Indian"
-        var favColor:String = "green"
+        let favFood:String = "Indian"
+        let favColor:String = "green"
         
         // Print out the info
         print("Full name: \(fullName)")
@@ -41,9 +41,11 @@ class ViewController: UIViewController {
         print("Favorite Color: \(favColor)")
         
         infoView.text = "Full name: \(fullName)\n Home Town: \(homeTown), \(homeState) \n Favorite Food: \(favFood) \n Favorite Color: \(favColor)"
+        
+        // Give the text box some definition...
         infoView.layer.borderWidth = 1.0
         infoView.layer.cornerRadius =  10
-                
+        
     }
     
 
