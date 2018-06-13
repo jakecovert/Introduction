@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         print("Favorite Color: \(favColor)")
         
         infoView.text = "Full name: \(fullName)\n Home Town: \(homeTown), \(homeState) \n Favorite Food: \(favFood) \n Favorite Color: \(favColor)"
+        infoView.layer.borderWidth = 1.0
+        infoView.layer.cornerRadius =  10
+                
     }
     
 
